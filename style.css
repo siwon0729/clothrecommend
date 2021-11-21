@@ -1,0 +1,198 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.file-upload {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+text-align: center;
+}
+
+
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 1px dashed #1FB264;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #ffffff;
+  border: 1px dashed #000000;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+.image-title-wrap,
+.imaage-title-wrap:hover { 
+ color:#000000;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #15824B;
+  padding: 60px 0;
+}
+
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+
+ .navbar-light .navber-brand {
+   width:230px;
+    height; 40px;
+    font-family: Nanumsquare;
+    font-size: 41px;
+    line-height: 1.68;
+    text-align:left;
+    color: #35465d;
+    
+    
+}
+
+.section{
+  margin-top: 100px;  
+  
+}
+
+.title{
+
+    font-family: Nanumsquare;
+
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+}
+.subtitle{
+    
+    
+    font-family: Nanumsquare;
+ 
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+}
+.predict-button{
+	text-align: center;
+padding: 10% 20%;
+}
+.btn {
+  text-align: center;
+	border-radius: 40px;
+  border: solid 1.5px #35465d;
+  background-color: #35465d;
+
+}
+.try-again-btn {
+  border-radius: 40px;
+  border: solid 1.5px #35465d;
+  background-color: #35465d;
+}
+.predict-text{
+	display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 15px;
+}
+
+.try-again-text {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  html {
+   font-size: 8px;
+  }  
+}
+
